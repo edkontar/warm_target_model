@@ -10,6 +10,18 @@ where $v_{\mathrm{te}}=\sqrt{2 k_{\mathrm{B}} T_\kappa / m_e}$ is the thermal sp
 
 $$\dot{N}_\kappa (E)=A v f_\kappa(v) 4 \pi v^2 \frac{d v}{d E}=A n_\kappa\left(\frac{8}{\pi m_e k_{\mathrm{B}} T_\kappa}\right)^{1 / 2} \times \frac{\Gamma(\kappa)}{\kappa^{3/2}\Gamma\left(\kappa-\frac{3}{2}\right)} \frac{E / k_{\mathrm{B}} T_\kappa}{\left(1+E / \kappa k_{\mathrm{B}} T_\kappa\right)^\kappa}$$
 
+where $A$ is the cross-sectional area of the loop. The total rate of electron injection is
+
+$$\dot{N}_0= \int_0^{\infty} \dot{N}_\kappa(E) d E=2 A n_\kappa\left(\frac{2 k_{\mathrm{B}} T_\kappa}{m_e}\right)^{1 / 2} \times \frac{\kappa^{1 / 2}}{(\kappa-2) B\left(\kappa-\frac{3}{2}, \frac{1}{2}\right)}$$
+
+where $B(\cdot, \cdot)$ is the beta function and the function to determine
+
+$$\dot{N}_\kappa(E)=\left(\frac{N_0}{k_{\mathrm{B}} T_\kappa}\right) \frac{(\kappa-1)(\kappa-2)}{\kappa^2} \frac{E / k_{\mathrm{B}} T_\kappa}{\left(1+E / \kappa k_{\mathrm{B}} T_\kappa\right)^\kappa} .$$
+
+
+
+
+
 
 
 
