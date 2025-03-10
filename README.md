@@ -18,7 +18,8 @@ where $B(\cdot, \cdot)$ is the beta function and the function to determine
 
 $$\dot{N}_\kappa(E)=\left(\frac{N_0}{k_{\mathrm{B}} T_\kappa}\right) \frac{(\kappa-1)(\kappa-2)}{\kappa^2} \frac{E / k_{\mathrm{B}} T_\kappa}{\left(1+E / \kappa k_{\mathrm{B}} T_\kappa\right)^\kappa} .$$
 
-
+Testing here:
+$$\dot{N}_\kappa (E)=A v f_\kappa(v) 4 \pi v^2 \frac{d v}{d E}$$
 
 
 
