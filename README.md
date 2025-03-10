@@ -1,7 +1,7 @@
 # warm_target_model
 Warm target model to fit Hard X-ray spectra (available in SSW/OSPEX https://hesperia.gsfc.nasa.gov/ssw/packages/xray/idl/)
 
-Kappa distribution of accelerated electrons (see https://doi.org/10.3847/1538-4357/aafad3 and https://doi.org/10.3847/1538-4357/ad6a59 ) for application to RHESSI and SolO/STIX Hard X-ray spectroscopy.
+**f_thick_warm_kappa.pro** and **f_thick_warm_kappa.py**: Kappa distribution of accelerated electrons (see https://doi.org/10.3847/1538-4357/aafad3 and https://doi.org/10.3847/1538-4357/ad6a59 ) for application to RHESSI and SolO/STIX Hard X-ray spectroscopy.
 The model assumes injected (accelerated) electron distribution in the form of kappa-distribution:
 
 $$f_\kappa(v)=\frac{n_\kappa}{\pi^{3 / 2} v_{\mathrm{te}}^3 \kappa^{3 / 2}} \frac{\Gamma(\kappa)}{\Gamma\left(\kappa-\frac{3}{2}\right)}\left(1+\frac{v^2}{\kappa v_{\mathrm{te}}^2}\right)^{-\kappa},$$
